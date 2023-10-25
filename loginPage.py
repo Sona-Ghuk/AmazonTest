@@ -1,6 +1,7 @@
 from selenium.webdriver.chrome import webdriver
 from selenium.webdriver.common.by import By
 
+
 class LoginPage:
     def __init__(self, driver: webdriver.Chrome):
         self.driver = driver
